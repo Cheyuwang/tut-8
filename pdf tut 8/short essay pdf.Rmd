@@ -7,7 +7,17 @@ output:
   html_document: default
 ---
 
+```{r setup, include=FALSE}
+install.packages("usethis")
+library("usethis")
+create_github_token()
+```
 
+```{r , include=FALSE}
+install.packages("gitcreds")
+library(gitcreds)
+gitcreds_set()
+```
 ##Introduction 
 Missing data refers to the absence of information from a dataset, which is a common problem in statistical analysis and research. This absence can be caused by a variety of factors, including data entry errors and non-responses in surveys. Missing data can have a significant impact on analytical quality, potentially leading to biased or incorrect conclusions if not addressed properly.
 
