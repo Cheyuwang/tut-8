@@ -13,7 +13,7 @@ library("usethis")
 create_github_token()
 ```
 
-```{r setup, include=FALSE}
+```{r , include=FALSE}
 install.packages("gitcreds")
 library(gitcreds)
 gitcreds_set()
